@@ -1,0 +1,27 @@
+.container {
+  padding: 7.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.9rem;
+}
+
+.grid div {
+  height: 8.2rem;
+  border: 1px solid #a8a9ad;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.grid img {
+  padding: 2.6rem 1.7rem 2.6rem 1.82rem;
+}
+
+.grid p {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
