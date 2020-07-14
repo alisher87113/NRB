@@ -1,0 +1,21 @@
+* {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gotham Pro;
+}
+
+/* Setting app styling */
+.App {
+  width: 1366px;
+  margin: auto;
+}
+
+/* styling section 1 */
+.section1 {
+  position: absolute;
+  top: 0;
+  background: url('./img/Black.png') no-repeat center center;
+  height: 115vh;
+}
