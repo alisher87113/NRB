@@ -11,21 +11,21 @@ const FifthSection = () => {
       <div className="underline"></div>
       <div className="teamCards">
         <div className="personCard">
-          <img src={pic3} alt="" />
+          <img className="image" src={pic3} alt="" />
           <div className="personInfo">
             <p className="name">Танатаров Ж.К.</p>
             <p className="occupation">Адвокат</p>
           </div>
         </div>
         <div className="personCard">
-          <img src={pic1} alt="" />
+          <img className="image" src={pic1} alt="" />
           <div className="personInfo">
             <p className="name">Келденов Р.К.</p>
             <p className="occupation">Нотариус</p>
           </div>
         </div>
         <div className="personCard">
-          <img src={pic2} alt="" />
+          <img className="image" src={pic2} alt="" />
           <div className="personInfo">
             <p className="name">Сабитова С.Т.</p>
             <p className="occupation">Бизнес-тренер</p>

@@ -81,3 +81,11 @@ label {
   top: 50%;
   transform: translateY(20%);
 }
+
+@media (max-width: 1330px) {
+  .section6 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

@@ -47,3 +47,34 @@
   top: -50%;
   transform: translateY(10%);
 }
+
+@media (max-width: 1200px) {
+  .gridSectionThree {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.9rem;
+  }
+}
+
+@media (max-width: 995px) {
+  .logo {
+    padding: 2rem 1.2rem 2rem 1.3rem;
+  }
+  .gridItemSectionThree {
+    height: 7.2rem;
+    border: 1px solid #a8a9ad;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .gridSectionThree strong {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.1rem;
+    position: relative;
+    top: -50%;
+    transform: translateY(10%);
+  }
+  .vector {
+    float: right;
+    padding: 2.7rem 1.7rem 3rem 0;
+  }
+}
