@@ -1,9 +1,24 @@
-ul {
-  list-style: none;
+/* styling section 1 background*/
+.section1 {
+  position: absolute;
+  top: 0;
+  background: url('../../img/Black.png');
+
+  background-position: center center;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+  background-size: cover;
+
+  background-color: #464646;
+
+  height: 76.6rem;
 }
 
-:before {
-  box-sizing: border-box;
+ul {
+  list-style: none;
 }
 
 .contacts {
@@ -40,12 +55,12 @@ ul {
   /* padding-right: 4.7rem; */
 }
 
-.phone,
-.address {
+.navPhone,
+.navAddress {
   padding-right: 4.7rem;
 }
 
-.email {
+.navEmail {
   padding-right: 0;
 }
 

@@ -1,0 +1,42 @@
+.section5 {
+  padding: 10.2rem 7.5rem 0 7.5rem;
+}
+
+.section5 h1 {
+  font-size: 4.2rem;
+  line-height: 6.4rem;
+}
+
+.underline {
+  margin: 0.2rem 0 5.6rem 0;
+}
+
+.teamCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.personCard {
+  position: relative;
+}
+
+.personInfo {
+  color: #ffff;
+  background-color: #353439;
+  opacity: 0.9;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0.8rem 0 0 3rem;
+}
+
+.occupation {
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+
+.name {
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+}

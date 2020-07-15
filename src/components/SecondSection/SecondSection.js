@@ -42,6 +42,7 @@ const SecondSection = () => {
           </div>
         </div>
       </div>
+
       <img alt="" src={image} />
     </div>
   );
